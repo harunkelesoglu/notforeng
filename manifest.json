@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+  "name": "YO Developer",
+  "description": "Bu uygulama size hergün 10 adet ingilizce kelime ve telaffuzunu öğretir",
+  "version": "1.0",
+  "icons": {
+    "64": "icon.png"
+  },
+
+  "browser_action": {
+    "default_icon": {                    // optional
+      "19": "icon.png",           // optional
+      "38": "icon.png"            // optional
+    },
+    "default_title": "Google Mail",      // optional; shown in tooltip
+    "default_popup": "index.html"        // optional
+  },
+
+  "permissions" :[
+    "notifications",
+    "http://localhost/*"
+
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+
+}
+
+
+
+
