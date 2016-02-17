@@ -1,10 +1,31 @@
 
 
 
-var word=function(){
-    $.get("http://localhost/chrome-notification/dosya.php", function(data){
-        $('#container').html(data);
-    });
 
+
+setInterval(function(){
+    $.get("http://localhost/chrome-notification/dosya.php", function (data) {
+       callback(data);
+    });
+},590000);
+
+function callback(data){
+
+    var doc=document.getElementById('container');
+    doc.innerHTML=data;
+
+}
+
+
+
+/*
+var opt={
+    type: "basic",
+    title: "Primary Title",
+    message: text,
+    iconUrl: "icon.png"
 };
-setInterval(word,2000);
+setInterval(function(){
+    chrome.notifications.create("",opt,function(){});
+},5000);
+*/

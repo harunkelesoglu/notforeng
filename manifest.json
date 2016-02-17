@@ -1,20 +1,12 @@
 {
   "manifest_version": 2,
-  "name": "YO Developer",
-  "description": "Bu uygulama size hergün 10 adet ingilizce kelime ve telaffuzunu öğretir",
+  "name": "YO Developer Community",
+  "description": "Bu uygulama size her 10 dakikada bir sozluk dosyasının içinde bulunan kelimeleri masaüstü bildirimi olarak gösterir.Toplamda günde maksimum 19 kelime ile sınırlandırılmıştır.",
   "version": "1.0",
   "icons": {
-    "64": "icon.png"
+    "64": "yo.png"
   },
 
-  "browser_action": {
-    "default_icon": {                    // optional
-      "19": "icon.png",           // optional
-      "38": "icon.png"            // optional
-    },
-    "default_title": "Google Mail",      // optional; shown in tooltip
-    "default_popup": "index.html"        // optional
-  },
 
   "permissions" :[
     "notifications",
@@ -22,11 +14,12 @@
 
   ],
   "background": {
-    "scripts": ["background.js"]
+    "page":"background.html"
+
   }
 
-}
 
+}
 
 
 
