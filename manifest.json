@@ -1,11 +1,8 @@
 {
   "manifest_version": 2,
   "name": "YO Developer Community",
-<<<<<<< HEAD
   "description": "Bu uygulama size her 10 dakikada bir sozluk dosyasının içinde bulunan kelimeleri masaüstü bildirimi olarak gösterir.Toplamda günde maksimum 19 kelime ile sınırlandırılmıştır.",
-=======
-  "description": "Bu uygulama size her 10 dakikada bir sozluk dosyasının içinde bulunan kelimeleri masaüstü bildirimi olarak gösterir.Toplamda gündde maksimum 19 kelime ile sınırlandırılmıştır.",
->>>>>>> 1862a3eb2975f32708a443388ea04befa8718a0b
+
   "version": "1.0",
   "icons": {
     "64": "yo.png"

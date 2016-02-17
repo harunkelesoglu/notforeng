@@ -7,7 +7,7 @@ setInterval(function(){
     $.get("http://localhost/chrome-notification/dosya.php", function (data) {
        callback(data);
     });
-},590000);
+},500000);
 
 function callback(data){
 
